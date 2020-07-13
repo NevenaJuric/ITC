@@ -1,5 +1,5 @@
 .element-1:hover{
-  -webkit-animation: flip-2-ver-left-2 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: flip-2-ver-left-2 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
 
 /* ----------------------------------------------
@@ -47,5 +47,5 @@
   display: grid;
   place-items: center;
   font-size: 40px;
-  -webkit-animation: flip-2-ver-left-2-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: flip-2-ver-left-2-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }

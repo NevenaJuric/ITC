@@ -1,13 +1,29 @@
-.navbar {
-  background-color: $first-color;
+.navbar{
+  background-color: rgba($color: $first-color, $alpha: 0.7);
+  height: 70px;
+}
+
+@media only screen and (max-width: 720px) {
+  .navbar{
+    background-color: $first-color;
+  }
 }
 
 .nav-link {
   color: $text-color-1 !important;
   font-weight: 600;
+  font-size: 20px;
+  margin-right: 15px !important;
 }
 
 .icon-toggler{
  color: $text-color-1;
  font-size: 36px;
+}
+
+.logo{
+  height: 50px;
+  width: 150px;
+  margin: 0px;
+  padding: 0px;
 }

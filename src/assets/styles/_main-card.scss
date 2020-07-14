@@ -49,3 +49,10 @@
   font-size: 40px;
   animation: flip-2-ver-left-2-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
+
+.card{
+  border: 2px solid red;
+  height: 50px;
+  position: relative;
+  top: 10px;
+}

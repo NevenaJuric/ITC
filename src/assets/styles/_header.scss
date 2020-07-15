@@ -8,5 +8,11 @@
 @media (max-width: 992px) {
     #carouselExampleCaptions{
         position: relative;
+        top: 0px;
     }
-  }
+}
+
+.carausel-text{
+    font-weight: 700;
+    letter-spacing: 5px;
+}

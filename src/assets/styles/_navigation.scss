@@ -3,9 +3,10 @@
   height: 70px;
 }
 
-@media only screen and (max-width: 720px) {
+@media (max-width: 992px) {
   .navbar{
     background-color: $first-color;
+    height: auto;
   }
 }
 

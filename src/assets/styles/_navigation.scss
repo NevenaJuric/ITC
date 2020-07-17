@@ -1,6 +1,7 @@
 .navbar{
   background-color: rgba($color: $first-color, $alpha: 0.7);
   height: 70px;
+  z-index: 1;
 }
 
 @media (max-width: 992px) {

@@ -5,9 +5,21 @@
   top: 10px;
 }
 
+@mixin background($imgpath, $position:center center,$repeat: no-repeat) {
+  background: {
+      image: url($imgpath);
+      position: $position;
+      repeat: $repeat;
+  }
+}
+
+#circle-adult{
+  @include background('/assets/pictures/circle/adult.png');
+}
+
 .rounded-circle {
-  width: 250px;
   height: 250px;
+  width: 250px;
   border: 1px solid $first-color;
   position: absolute;
   top: 0; 
@@ -15,40 +27,25 @@
   left: 0; 
   right: 0;
   margin: auto;
-  animation: flip-2-ver-left-2-1 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    both;
+  animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-.rounded-circle:hover {
-  animation: flip-2-ver-left-2 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-}
-@keyframes flip-2-ver-left-2 {
-  0% {
-    -webkit-transform: translateX(0) rotateY(0);
-    transform: translateX(0) rotateY(0);
-    -webkit-transform-origin: 0% 50%;
-    transform-origin: 0% 50%;
-  }
-  100% {
-    -webkit-transform: translateX(-100%) rotateY(-180deg);
-    transform: translateX(-100%) rotateY(-180deg);
-    -webkit-transform-origin: 100% 0%;
-    transform-origin: 100% 0%;
-    background-color: red;
-  }
+.circle-icon{
+  font-size: 96px;
+  color: $text-color-1;
+  position: relative;
+  bottom: 45px;
 }
 
-@keyframes flip-2-ver-left-2-1 {
+@keyframes scale-in-center {
   0% {
-    -webkit-transform: translateX(0) rotateY(0);
-    transform: translateX(0) rotateY(0);
-    -webkit-transform-origin: 0% 50%;
-    transform-origin: 0% 50%;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
   }
   100% {
-    -webkit-transform: translateX(-100%) rotateY(-180deg);
-    transform: translateX(-100%) rotateY(-180deg);
-    -webkit-transform-origin: 100% 0%;
-    transform-origin: 100% 0%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
   }
 }

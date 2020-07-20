@@ -1,51 +1,86 @@
-.card {
-  border: none;
-  height: 300px;
-  position: relative;
-  top: 10px;
-}
-
-@mixin background($imgpath, $position:center center,$repeat: no-repeat) {
+@mixin background($imgpath, $repeat: no-repeat) {
   background: {
-      image: url($imgpath);
-      position: $position;
-      repeat: $repeat;
+    image: url($imgpath);
+    repeat: $repeat;
   }
 }
 
-#circle-adult{
-  @include background('/assets/pictures/circle/adult.png');
+.row{
+  margin: 0px;
 }
 
-.rounded-circle {
-  height: 250px;
-  width: 250px;
-  border: 1px solid $first-color;
-  position: absolute;
-  top: 0; 
-  bottom: 0; 
-  left: 0; 
-  right: 0;
-  margin: auto;
-  animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-.circle-icon{
-  font-size: 96px;
-  color: $text-color-1;
+.main {
+  height: 100vh;
   position: relative;
-  bottom: 45px;
+  bottom: 70px;
+  @include background("/assets/pictures/main/1.png");
 }
 
-@keyframes scale-in-center {
+.main-heading-title {
+  color: $text-color-1;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.main-heading-text {
+  color: $text-color-1;
+  font-size: 20px;
+}
+
+.title-1{
+  font-size: 36px !important;
+  padding-top: 10px;
+}
+
+@media (max-width: 400px) {
+  .main-heading-title {
+    font-size: 18px !important;
+    padding-top: 0px;
+  }
+
+  .main-heading-text {
+    color: $text-color-1;
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .main-heading-title {
+    font-size: 20px;
+  }
+
+  .main-heading-text {
+    color: $text-color-1;
+    font-size: 16px;
+  }
+}
+
+.main-animation {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+ @-webkit-keyframes slide-in-left {
   0% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
-    opacity: 1;
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
   }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
     opacity: 1;
   }
 }
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+

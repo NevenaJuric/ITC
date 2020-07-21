@@ -6,17 +6,17 @@
         tehnologija. Od najmlađeg do najstarijeg na našem koledžu povezuje jedna karika i to je uživanje u IT svetu. Sve
         IT veštine na jednom mestu uz poseban način prenošenja znanja.</p>
       <p class="main-heading-title">Zajedno stvaramo svet uspešnih - pridruži se i ti!!!</p>
-        <div class="col-lg-4 col-md-12 col-sm-12 main-div main-animation">
+        <div class="col-lg-4 col-md-12 col-sm-12 main-div" (scroll)="scrolling($event)" [ngClass]="{'main-animation-1': scroll}">
           <p class="main-heading-title title-1">Specijalizovani programi</p>
           <p class="main-heading-text">Svi programi su posebno rađeni prema uzrastu, potrebi i nameni. Svaki od smerova
             se bazira na planovima rada usmerenim ka tom zanmanju.</p>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 main-div main-animation">
+        <div class="col-lg-4 col-md-12 col-sm-12 main-div" (scroll)="scrolling($event)" [ngClass]="{'main-animation-2': scroll}">
           <p class="main-heading-title title-1">Prilagođeni uslovi rada</p>
           <p class="main-heading-text">Predavači su dostupni svakog dana i van nastave. Koledž je opremljen savremenom
             infrastrukturom, prilagođenu i početniku i stručnjaku.</p>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 main-div main-animation">
+        <div class="col-lg-4 col-md-12 col-sm-12 main-div" (scroll)="scrolling($event)" [ngClass]="{'main-animation-3': scroll}">
           <p class="main-heading-title title-1">Usavršavanje znanja i praksa</p>
           <p class="main-heading-text">Mogućnost obavljanja prakse u uspešnim kompanijama za najbolje učenike. Svi oni
             koji koji budu želeli spacijalizovana usavršavanja spremaju se posebni programi prilagođeni njihovoj

@@ -10,6 +10,7 @@ import { HeaderComponent } from './home page/header/header.component';
 import { MainComponent } from './home page/main/main.component';
 import { PriceComponent } from './home page/price/price.component';
 import { ExpiriensComponent } from './home page/expiriens/expiriens.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
    declarations: [
@@ -19,7 +20,8 @@ import { ExpiriensComponent } from './home page/expiriens/expiriens.component';
       HeaderComponent,
       MainComponent,
       PriceComponent,
-      ExpiriensComponent
+      ExpiriensComponent,
+      FooterComponent
    ],
    imports: [
       BrowserModule,

@@ -1,6 +1,7 @@
-@mixin background($imgpath, $repeat: no-repeat) {
+@mixin background($imgpath, $size: cover, $repeat: no-repeat) {
   background: {
     image: url($imgpath);
+    size: $size;
     repeat: $repeat;
   }
 }

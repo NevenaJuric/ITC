@@ -23,8 +23,44 @@ $height: calc(100vh / 3);
 }
 
 .exp-circle {
-  height: 100px;
-  // width: 100px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
+  margin-top: 10px;
   border: 2px solid red;
+}
+
+#exp-circle-2 {
+    position: absolute;
+    left: calc(100% - 210px);
+  }
+
+@media (max-width: 576px) {
+  .exp-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 2px solid red;
+  }
+
+  #exp-circle-2 {
+    position: absolute;
+    left: calc(100% - 100px);
+  }
+}
+
+@media (max-width: 576px) {
+  .exp-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 2px solid red;
+  }
+
+  #exp-circle-2 {
+    position: absolute;
+    left: calc(100% - 100px);
+  }
 }

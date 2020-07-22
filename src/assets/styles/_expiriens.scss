@@ -1,0 +1,30 @@
+$height: calc(100vh / 3);
+
+@mixin background($imgpath, $size: cover, $repeat: no-repeat) {
+  background: {
+    image: url($imgpath);
+    size: $size;
+    repeat: $repeat;
+  }
+}
+
+.row {
+  margin: 0px !important;
+}
+
+.main-exp {
+  height: 100vh;
+  @include background("/assets/pictures/main/3.png");
+}
+
+.exp-div {
+  height: $height;
+  border: 2px solid greenyellow;
+}
+
+.exp-circle {
+  height: 100px;
+  // width: 100px;
+  border-radius: 50%;
+  border: 2px solid red;
+}

@@ -1,14 +1,23 @@
 <main class="main-exp">
   <div class="container">
     <div class="row">
-      <div class="col-12 exp-div">
+      <div class="col-12 exp-div" (scroll)="scrolling_circle($event)" [ngClass]="{'exp-div-1': scroll}">
         <div class="rounded-circle exp-circle"></div>
+        <div class="exp-div-text exp-div-text-left">Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+          printer took a galley of type and scrambled it to make a type specimen book.</div>
       </div>
-      <div class="col-12 exp-div">
-        <div class="rounded-circle exp-circle" id="exp-circle-2"></div>
+      <div class="col-12 exp-div" id="exp-div-right" (scroll)="scrolling_circle($event)" [ngClass]="{'exp-div-2': scroll}">
+        <div class="rounded-circle exp-circle" id="exp-circle-right"></div>
+        <div class="exp-div-text exp-div-text-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+          type and scrambled it to make a type specimen book.</div>
       </div>
-      <div class="col-12 exp-div">
+      <div class="col-12 exp-div" (scroll)="scrolling_circle($event)" [ngClass]="{'exp-div-3': scroll}">
         <div class="rounded-circle exp-circle"></div>
+        <div class="exp-div-text exp-div-text-left">Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+          printer took a galley of type and scrambled it to make a type specimen book.</div>
       </div>
     </div>
   </div>

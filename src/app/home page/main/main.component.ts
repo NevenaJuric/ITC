@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-main',
@@ -7,7 +6,6 @@ import {faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 })
 export class MainComponent implements OnInit {
 
-  faLaptopCode = faLaptopCode;
   scroll = false;
   constructor() {}
 

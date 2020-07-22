@@ -1,0 +1,12 @@
+@mixin background($imgpath, $repeat: no-repeat) {
+  background: {
+    image: url($imgpath);
+    repeat: $repeat;
+  }
+}
+
+.price {
+  height: 100vh;
+  position: relative;
+  @include background("/assets/pictures/main/2.png");
+}

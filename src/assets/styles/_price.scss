@@ -9,5 +9,5 @@
 .price {
   height: 100vh;
   position: relative;
-  @include background("/assets/pictures/main/2.png");
+  @include background("~/assets/pictures/main/2.png");
 }

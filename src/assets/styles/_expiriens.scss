@@ -10,7 +10,7 @@ $height: calc(100vh / 3);
 
 .main-exp {
   height: 100vh;
-  @include background("/assets/pictures/main/3.png");
+  @include background("~/assets/pictures/main/3.png");
 }
 
 .exp-div {

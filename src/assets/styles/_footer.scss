@@ -1,4 +1,15 @@
 footer{
     height: 200px;
     background-color: $first-color;
+    border-top: 7px solid $second-color;
+}
+
+.footer-icon{
+    border: 2px solid red;
+    
+}
+
+.icon{
+    color: $text-color-1;
+    margin-right: 10px;
 }

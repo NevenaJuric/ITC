@@ -4,12 +4,36 @@ footer{
     border-top: 7px solid $second-color;
 }
 
-.footer-icon{
-    border: 2px solid red;
-    
-}
-
 .icon{
     color: $text-color-1;
-    margin-right: 10px;
+    margin-right: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.footer-icon{
+    position: relative;
+    top: 30px;
+    color: $text-color-1;
+    font-size: 16px;
+}
+
+.footer-mail{
+    color: $text-color-1;
+    font-size: 16px;
+}
+
+.footer-mail:hover{
+    text-decoration: none;
+    color: $second-color;
+}
+
+@media (max-width: 375px){
+    .footer-icon{
+        font-size: 12px;
+    }
+
+    .footer-mail{
+        font-size: 12px;
+    }
 }

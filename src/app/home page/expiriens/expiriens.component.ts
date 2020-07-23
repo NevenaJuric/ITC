@@ -19,7 +19,6 @@ export class ExpiriensComponent implements OnInit {
     const sc = s.target.scrollingElement.scrollTop;
     if (sc > 2.5 * window.innerHeight){
       this.scroll = true;
-      console.log('circle');
     }else {
       this.scroll = false;
     }

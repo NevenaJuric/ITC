@@ -1,6 +1,6 @@
 <div class="nav-div">
-<nav class="navbar navbar-expand-lg fixed-top">
-  <a class="navbar-brand" href="#">
+<nav class="navbar navbar-expand-lg fixed-top" (load)="homeTtop($event)" [ngClass]="{'fixed-top': home}">
+  <a class="navbar-brand" routerLink='/home' routerLinkActive="active">
     <img src="assets/pictures/logo/logo_white.png" class="logo">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
         <a class="nav-link" href="#">Galerija</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">O nama</a>
+        <a class="nav-link" routerLink='/about'>O nama</a>
       </li>
     </ul>
   </div>

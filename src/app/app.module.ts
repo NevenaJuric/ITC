@@ -11,6 +11,7 @@ import { MainComponent } from './home page/main/main.component';
 import { PriceComponent } from './home page/price/price.component';
 import { ExpiriensComponent } from './home page/expiriens/expiriens.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
    declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
       MainComponent,
       PriceComponent,
       ExpiriensComponent,
-      FooterComponent
+      FooterComponent,
+      AboutComponent
    ],
    imports: [
       BrowserModule,

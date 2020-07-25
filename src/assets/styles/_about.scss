@@ -50,7 +50,7 @@
   background-color: $first-color;
 }
 
-@media (max-width: 360px){
+@media (max-width: 460px){
   .about_contant{
     font-size: 32px;
     top: 5px;
@@ -60,12 +60,15 @@
     font-size: 14px;
     top: 10px
   }
+
+  .header-link{
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 768px){
   .about_contant_adress{
     border-left: none;
     border-top: 1px solid $second-color;
-    top: 50px;
   }
 }

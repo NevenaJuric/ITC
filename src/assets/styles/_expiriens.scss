@@ -1,13 +1,5 @@
 $height: calc(100vh / 3);
 
-@mixin background($imgpath, $size: cover, $repeat: no-repeat) {
-  background: {
-    image: url($imgpath);
-    size: $size;
-    repeat: $repeat;
-  }
-}
-
 .main-exp {
   height: 100vh;
   @include background("~/assets/pictures/main/3.png");

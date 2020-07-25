@@ -1,11 +1,3 @@
-@mixin background($imgpath, $size: cover, $repeat: no-repeat) {
-  background: {
-    image: url($imgpath);
-    size: $size;
-    repeat: $repeat;
-  }
-}
-
 .row{
   margin: 0px;
 }

@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 $font-main: "Roboto", sans-serif;
 
+@mixin background($imgpath, $size: cover, $repeat: no-repeat) {
+  background: {
+    image: url($imgpath);
+    size: $size;
+    repeat: $repeat;
+  }
+}
+
 * {
   font-family: $font-main;
 }
@@ -14,3 +22,4 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+

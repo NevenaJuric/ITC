@@ -61,6 +61,8 @@ $height: calc(100vh / 3);
   animation: scale-in-center 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+// media
+
 @media (max-width: 576px) {
   .exp-circle {
     display: none;
@@ -72,6 +74,8 @@ $height: calc(100vh / 3);
     right: 0px;
   }
 }
+
+// animation
 
 @-webkit-keyframes scale-in-center {
   0% {

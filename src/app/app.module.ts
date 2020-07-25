@@ -12,6 +12,7 @@ import { PriceComponent } from './home page/price/price.component';
 import { ExpiriensComponent } from './home page/expiriens/expiriens.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { DevKidsComponent } from './dev-kids/dev-kids.component';
 
 @NgModule({
    declarations: [
@@ -23,7 +24,8 @@ import { AboutComponent } from './about/about.component';
       PriceComponent,
       ExpiriensComponent,
       FooterComponent,
-      AboutComponent
+      AboutComponent,
+      DevKidsComponent
    ],
    imports: [
       BrowserModule,

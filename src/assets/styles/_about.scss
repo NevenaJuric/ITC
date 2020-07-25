@@ -11,3 +11,61 @@
   @include background("~/assets/pictures/main/about.png");
   height: 100vh;
 }
+
+.about_contant{
+  font-size: 64px;
+  color: $text-color-1;
+  font-weight: 800;
+  position: relative;
+  top: 20px;
+}
+
+.about_contant_text{
+  color: $text-color-1;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+}
+
+.about_contant_adress{
+  border-left: 1px solid $second-color;
+  color: $text-color-1;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+}
+
+.about-mail{
+  color: $text-color-1;
+  font-size: 20px;
+}
+
+.about-mail:hover{
+  text-decoration: none;
+  color: $second-color;
+}
+
+.about_us{
+  height: 100vh;
+  background-color: $first-color;
+}
+
+@media (max-width: 360px){
+  .about_contant{
+    font-size: 32px;
+    top: 5px;
+  }
+
+  .about_contant_text{
+    font-size: 14px;
+    top: 10px
+  }
+}
+
+@media (max-width: 768px){
+  .about_contant_adress{
+    border-left: none;
+    border-top: 1px solid $second-color;
+    top: 50px;
+  }
+}

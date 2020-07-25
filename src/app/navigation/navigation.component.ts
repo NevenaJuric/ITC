@@ -22,7 +22,7 @@ export class NavigationComponent implements OnInit {
   }
 
   homeTtop = (h) => {
-    if (this.route === '/home') {
+    if (this.route === '') {
       this.home = true;
     } else {
       this.home = false;

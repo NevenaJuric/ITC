@@ -1,0 +1,34 @@
+[
+    {
+        "id": "Dev_Kids",
+        "title": "Dev Kids",
+        "folder": "Dev_Kids",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "courses": [
+            {
+                "id": "robotika",
+                "title": "Robotika",
+                "icon": "fa-robot",
+                "animation": 1
+            },
+            {
+                "id": "gejming",
+                "title": "Gejming",
+                "icon": "fa-gamepad",
+                "animation": 2
+            },
+            {
+                "id": "programiranje",
+                "title": "Programiranje",
+                "icon": "fa-laptop-code",
+                "animation": 3
+            },
+            {
+                "id": "dizajn",
+                "title": "Dizajn",
+                "icon": "fa-palette",
+                "animation": 4
+            }
+        ]
+    }
+]

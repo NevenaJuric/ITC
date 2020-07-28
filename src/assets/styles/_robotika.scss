@@ -1,0 +1,7 @@
+.margin{
+    @include margin;
+}
+.robotics-color{
+    background-color: $robotics-color;
+    height: 200px;
+}

@@ -9,6 +9,11 @@ $font-main: "Roboto", sans-serif;
   }
 }
 
+@mixin margin {
+  margin: 0px;
+  padding: 0px;
+}
+
 * {
   font-family: $font-main;
 }
@@ -23,3 +28,6 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+a:hover{
+  text-decoration: none;
+}

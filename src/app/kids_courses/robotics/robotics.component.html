@@ -1,0 +1,10 @@
+<div class="container-fluid margin" *ngIf="roboticsMetadata$ | async">
+  <div class="row justify-content-start">
+    <div class="col-xl-7 col-md-12 robotics-color">
+      <ng-container *ngFor="let robot of (roboticsMetadata$ | async)">
+        {{robot.title}}
+      </ng-container>
+    </div>
+    <div class="col-xl-5 robotics-img"></div>
+  </div>
+</div>

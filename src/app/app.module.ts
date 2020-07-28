@@ -14,6 +14,7 @@ import { ExpiriensComponent } from './home page/expiriens/expiriens.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { DevKidsComponent } from './dev-kids/dev-kids.component';
+import { RoboticsComponent } from './kids_courses/robotics/robotics.component';
 
 @NgModule({
    declarations: [
@@ -26,7 +27,8 @@ import { DevKidsComponent } from './dev-kids/dev-kids.component';
       ExpiriensComponent,
       FooterComponent,
       AboutComponent,
-      DevKidsComponent
+      DevKidsComponent,
+      RoboticsComponent
    ],
    imports: [
       BrowserModule,

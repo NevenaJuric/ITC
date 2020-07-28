@@ -6,15 +6,11 @@ import { Observable, of } from 'rxjs';
   providedIn: 'root',
 })
 export class DevKidsService {
-  constructor(private httpCliend: HttpClient) {}
+  constructor(private httpClient: HttpClient) {}
 
   school: any = [];
 
   getSchool(): Observable<any[]> {
-    return this.httpCliend.get<any[]>('assets/data/dev-kids.json');
-  }
-
-  getCourse(): Observable<any[]> {
-    return this.httpCliend.get<any[]>('assets/data/robotika.json');
+    return this.httpClient.get<any[]>('assets/data/dev-kids.json');
   }
 }

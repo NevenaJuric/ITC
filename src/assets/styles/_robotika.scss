@@ -1,7 +1,11 @@
-.margin{
-    @include margin;
+.margin {
+  @include margin;
 }
-.robotics-color{
-    background-color: $robotics-color;
-    height: 200px;
+.robotics-color {
+  background-color: $robotics-color;
+  height: 100vh;
+}
+
+.robotics-img {
+  @include background("~/assets/pictures/main/robot_1.png");
 }

@@ -14,10 +14,7 @@ export class DevKidsService {
     return this.httpCliend.get<any[]>('assets/data/dev-kids.json');
   }
 
-  getCourse(schoolId: string, courseId: string): Observable<string> {
-    if (schoolId && courseId) {
-      return this.httpCliend.get<string>(`assets/dev-kids/${schoolId}/${courseId}.html`, {responseType: 'text' as 'json'});
-    }
-    return of(null);
+  getCourse(): Observable<any[]> {
+    return this.httpCliend.get<any[]>('assets/data/robotika.json');
   }
 }

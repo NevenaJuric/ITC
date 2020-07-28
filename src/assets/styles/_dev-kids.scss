@@ -3,10 +3,6 @@
   @include background("~/assets/pictures/main/dev_kids.png");
 }
 
-.dev-kids-visible{
-  display: none;
-}
-
 .dev-kids-about {
   position: relative;
   top: 30px;
@@ -48,8 +44,8 @@
 }
 
 #dev-kids-course-4 {
-    animation: slide-in-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  }
+  animation: slide-in-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
 
 @keyframes slide-in-left {
   0% {

@@ -9,3 +9,8 @@
 .robotics-img {
   @include background("~/assets/pictures/main/robot_1.png");
 }
+
+.robotics-img-experiens{
+  @include background("~/assets/pictures/main/robot_2.png");
+  height: 100vh;
+}

@@ -6,43 +6,53 @@
     "content": [
         {
             "id": 1,
-            "item": "Uvod"
+            "item": "Uvod",
+            "number_of_class": 5
         },
         {
             "id": 2,
-            "item": "Uvod"
+            "item": "Uvod",
+            "number_of_class": 5
         },
         {
             "id": 3,
-            "item": "Uvod"
+            "item": "Uvod",
+            "number_of_class": 5
         },
         {
             "id": 4,
-            "item": "Uvod"
+            "item": "Uvod",
+            "number_of_class": 5
         },
         {
             "id": 5,
-            "item": "Uvod"
+            "item": "Uvod",
+            "number_of_class": 5
         },
         {
             "id": 6,
-            "item": "Uvod"
+            "item": "Uvod",
+            "number_of_class": 5
         },
         {
             "id": 7,
-            "item": "Uvod"
+            "item": "Uvod",
+            "number_of_class": 5
         },
         {
             "id": 8,
-            "item": "Uvod"
+            "item": "Uvod",
+            "number_of_class": 5
         },
         {
             "id": 9,
-            "item": "Uvod"
+            "item": "Uvod",
+            "number_of_class": 5
         },
         {
             "id": 10,
-            "item": "Uvod"
+            "item": "Uvod",
+            "number_of_class": 5
         }
     ],
     "old_price": 600,

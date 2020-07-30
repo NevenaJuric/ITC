@@ -14,3 +14,12 @@
   @include background("~/assets/pictures/main/robot_2.png");
   height: 100vh;
 }
+
+.robotic-list{
+  background-color: $robotics-color;
+}
+
+.robotics-price{
+  background-color: $robotics-color;
+  height: 100vh;
+}

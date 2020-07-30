@@ -10,14 +10,13 @@
     </div>
     <div class="col-xl-5 robotics-img"></div>
     <div class="robotics-img-experiens col-12">
-      <ul class="list-group" *ngFor="let content of robot.content">
-        <ul class="list-group list-group-horizontal">
-          <li class="list-group-item">{{content.id}}</li>
-          <li class="list-group-item">{{content.item}}</li>
-          <li class="list-group-item">{{content.number_of_class}}</li>
-        </ul>
-      </ul>
+      <div class="col-xl-6 col-md-12 course-list robotic-list" *ngFor="let content of robot.content">
+        <h5 class="course-list-id">{{content.id}}.</h5>
+        <h5 class="course-list-id course-list-content">{{content.item}}</h5>
+        <h5 class="course-list-id course-list-number">{{content.number_of_class}}</h5>
+      </div>
     </div>
+    <div class="col-12 robotics-price"></div>
   </ng-container>
 </div>
 </div>

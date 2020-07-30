@@ -9,3 +9,40 @@
 .course-headings{
     color: $text-color-1;
 }
+
+.course-list{
+    margin: 5px 0px;
+    border-radius: 30px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.course-list-id{
+    color: $text-color-1;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-right: calc(100% / 3);
+    text-align: center;
+}
+
+.course-list-content{
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.course-list-number{
+    padding: 0px;
+}
+
+@media (max-width: 375px){
+    h5:first-child{
+        display: none;
+    }
+
+    .course-list-content{
+        font-size: 14px;
+    }
+}

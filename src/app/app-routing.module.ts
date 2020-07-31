@@ -5,13 +5,15 @@ import { HomeComponent } from './home/home.component';
 import { DevKidsComponent } from './dev-kids/dev-kids.component';
 import { RoboticsComponent } from './kids_courses/robotics/robotics.component';
 import { ProgrammingComponent } from './kids_courses/programming/programming.component';
+import { GamingComponent } from './kids_courses/gaming/gaming.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'about', component: AboutComponent},
   {path: 'kids', component: DevKidsComponent},
   {path: 'robotics', component: RoboticsComponent},
-  {path: 'programming', component: ProgrammingComponent}
+  {path: 'programming', component: ProgrammingComponent},
+  {path: 'gaming', component: GamingComponent}
 ];
 
 @NgModule({

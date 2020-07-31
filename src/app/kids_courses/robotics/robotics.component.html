@@ -16,7 +16,36 @@
         <h5 class="course-list-id course-list-number">{{content.number_of_class}}</h5>
       </div>
     </div>
-    <div class="col-12 robotics-price"></div>
+    <div class="col-12 robotics-price">
+      <div class="container-fluid">
+        <h2 class="course-registration">Upis je
+          <br>
+          u toku
+        </h2>
+        <div class="row course-price">
+          <div class="col-xl-2 col-md-12">
+            <p class="course-price-course">Dev Kids <br> kurs</p>
+            <p class="course-price-name">{{robot.title}}</p>
+          </div>
+          <div class="col-xl-2 col-md-12">
+            <p class="course-price-course">Redovna cena (eur)</p>
+            <p class="course-price-old-price">{{robot.old_price}}</p>
+          </div>
+          <div class="col-xl-4 col-md-12">
+            <p class="course-price-course">PROMOTIVNA CENA ZA PLAĆANJE NA RATe (EUR)</p>
+            <p class="course-price-name">{{robot.installment_price}}</p>
+          </div>
+          <div class="col-xl-4 col-md-12">
+            <p class="course-price-course">PROMOTIVNA CENA ZA PLAĆANJE U CELOSTI (EUR)</p>
+            <p class="course-price-name">{{robot.price_in_full}}</p>
+          </div>
+        </div>
+        <p class="course-price-nbs">*Cene u evrima se obračunavaju prema prodajnom kursu NBS.</p>
+        <div class="header-link">
+          <a href="#" class="header-link-text">Prijavi se</a>
+        </div>
+      </div>
+    </div>
   </ng-container>
 </div>
 </div>

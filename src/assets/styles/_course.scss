@@ -37,6 +37,77 @@
     padding: 0px;
 }
 
+.course-registration{
+    font-size: 72px;
+    color: $text-color-1;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.course-price{
+    border-radius: 20px;
+    background-color: $first-color;
+    text-transform: uppercase;
+}
+
+.course-price-course{
+    color: $first-color;
+    font-size: 24px;
+    text-align: center;
+    background-color: $text-color-1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 5px;
+}
+
+.course-price-name{
+    color: $text-color-1;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.course-price-old-price{
+    color: $text-color-1;
+    opacity: 0.6;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: line-through;
+}
+
+.course-price-nbs{
+    color: $text-color-1;
+}
+
+@media (max-width: 912px){
+    h5:first-child{
+        display: none;
+    }
+
+    .course-list-content{
+        font-size: 14px;
+    }
+
+    .course-registration{
+        font-size: 48px;
+    }
+
+    .course-price-name{
+        font-size: 28px;
+    }
+
+    .course-price-old-price{
+        font-size: 28px;
+    }
+
+    .course-price-course{
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 375px){
     h5:first-child{
         display: none;
@@ -44,5 +115,21 @@
 
     .course-list-content{
         font-size: 14px;
+    }
+
+    .course-registration{
+        font-size: 32px;
+    }
+
+    .course-price-name{
+        font-size: 20px;
+    }
+
+    .course-price-old-price{
+        font-size: 20px;
+    }
+
+    .course-price-course{
+        font-size: 16px;
     }
 }

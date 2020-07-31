@@ -1,0 +1,36 @@
+.margin {
+    @include margin;
+  }
+  .gaming-color {
+    background-color: $gaming-color;
+  }
+  
+  .gaming-img {
+    @include background("~/assets/pictures/main/gaming-kids-1.jpg");
+  }
+  
+  .gaming-img-experiens {
+    @include background("~/assets/pictures/main/gaming-kids-2.png");
+  }
+  
+  .gaming-list {
+    background-color: $gaming-color;
+  }
+  
+  .gaming-price {
+    background-color: $gaming-color;
+  }
+  
+  .gaming-price-row {
+    background-color: $gaming-color-2;
+  }
+  
+  .header-link-program {
+    border: 2px solid $text-color-1;
+    line-height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-top: 15px;
+    text-align: center !important;
+  }
+  

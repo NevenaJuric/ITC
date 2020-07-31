@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DevKidsService } from '../../services/dev-kids.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-gaming',
@@ -6,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GamingComponent implements OnInit {
 
-  constructor() { }
+  gamingKidsMetaData$: Observable<any[]>
+
+  constructor(private devKidsService: DevKidsService) { }
 
   ngOnInit() {
+    this.gamingKidsMetaData$ = this.devKidsService.getGamingKids();
   }
 
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DevKidsService } from '../../services/dev-kids.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-programming',
@@ -6,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProgrammingComponent implements OnInit {
 
-  constructor() { }
+  programmingKidsMetadata$: Observable<any[]>;
+
+  constructor(private devKidsService: DevKidsService) { }
 
   ngOnInit() {
+    this.programmingKidsMetadata$ = this.devKidsService.getProgrammingKids();
   }
 
 }

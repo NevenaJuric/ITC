@@ -13,4 +13,8 @@ export class DevKidsService {
   getSchool(): Observable<any[]> {
     return this.httpClient.get<any[]>('assets/data/dev-kids.json');
   }
+
+  getRobotics(): Observable<any[]> {
+    return this.httpClient.get<any[]>('assets/data/robotika.json');
+  }
 }

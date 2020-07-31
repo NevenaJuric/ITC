@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RoboticsService } from '../../services/robotics.service';
+import { DevKidsService } from '../../services/dev-kids.service';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -10,10 +10,10 @@ export class RoboticsComponent implements OnInit {
 
   roboticsMetadata$: Observable<any[]>;
 
-  constructor(private roboticsService: RoboticsService) { }
+  constructor(private devKidsService: DevKidsService) { }
 
   ngOnInit() {
-    this.roboticsMetadata$ = this.roboticsService.getRobotics();
+    this.roboticsMetadata$ = this.devKidsService.getRobotics();
   }
 
 }

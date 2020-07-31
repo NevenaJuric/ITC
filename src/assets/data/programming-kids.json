@@ -1,0 +1,63 @@
+[
+    {
+      "id": "programming-kids",
+      "title": "Programiranje",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "content": [
+          {
+              "id": 1,
+              "item": "Lorem Ipsum is simply dummy",
+              "number_of_class": 5
+          },
+          {
+              "id": 2,
+              "item": "Uvod",
+              "number_of_class": 5
+          },
+          {
+              "id": 3,
+              "item": "Uvod",
+              "number_of_class": 5
+          },
+          {
+              "id": 4,
+              "item": "Uvod",
+              "number_of_class": 5
+          },
+          {
+              "id": 5,
+              "item": "Uvod",
+              "number_of_class": 5
+          },
+          {
+              "id": 6,
+              "item": "Uvod",
+              "number_of_class": 5
+          },
+          {
+              "id": 7,
+              "item": "Uvod",
+              "number_of_class": 5
+          },
+          {
+              "id": 8,
+              "item": "Uvod",
+              "number_of_class": 5
+          },
+          {
+              "id": 9,
+              "item": "Uvod",
+              "number_of_class": 5
+          },
+          {
+              "id": 10,
+              "item": "Uvod",
+              "number_of_class": 5
+          }
+      ],
+      "old_price": 600,
+      "installment_price": 580,
+      "price_in_full": 560
+    }
+  ]
+  

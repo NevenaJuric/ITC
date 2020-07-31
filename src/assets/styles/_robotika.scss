@@ -3,7 +3,6 @@
 }
 .robotics-color {
   background-color: $robotics-color;
-  height: 100vh;
 }
 
 .robotics-img {
@@ -12,7 +11,6 @@
 
 .robotics-img-experiens{
   @include background("~/assets/pictures/main/robot_2.png");
-  height: 100vh;
 }
 
 .robotic-list{
@@ -21,5 +19,4 @@
 
 .robotics-price{
   background-color: $robotics-color;
-  height: 100vh;
 }

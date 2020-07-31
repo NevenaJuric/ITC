@@ -1,31 +1,30 @@
 <div class="container-fluid margin" *ngIf="roboticsMetadata$ | async">
   <div class="row">
     <ng-container *ngFor="let robot of (roboticsMetadata$ | async)">
-    <div class="col-xl-7 col-md-12 robotics-color">
+    <div class="col-xl-7 col-md-12 course-color robotics-color">
         <p class="course-title">{{robot.title}}</p>
         <p class="course-headings">{{robot.description}}</p>
+        <p class="course-eng">engleski gratis!!!</p>
+        <p class="course-price-nbs">*U toku trajanja kursa</p>
       <div class="header-link">
         <a href="#" class="header-link-text">Prijavi se</a>
       </div>
     </div>
-    <div class="col-xl-5 robotics-img">
-      <p class="course-eng">engleski gratis!!!</p>
-      <p class="course-price-nbs">U toku trajanja kursa</p>
-    </div>
-    <div class="robotics-img-experiens col-12">
+    <div class="col-xl-5 course-img robotics-img"></div>
+    <div class="course-img-experiens robotics-img-experiens col-12">
       <div class="col-xl-6 col-md-12 course-list robotic-list" *ngFor="let content of robot.content">
         <h5 class="course-list-id">{{content.id}}.</h5>
         <h5 class="course-list-id course-list-content">{{content.item}}</h5>
         <h5 class="course-list-id course-list-number">{{content.number_of_class}}</h5>
       </div>
     </div>
-    <div class="col-12 robotics-price">
+    <div class="col-12 course-price robotics-price">
       <div class="container-fluid">
         <h2 class="course-registration">Upis je
           <br>
           u toku
         </h2>
-        <div class="row course-price">
+        <div class="row course-price-row">
           <div class="col-xl-2 col-md-12">
             <p class="course-price-course">Dev Kids <br> kurs</p>
             <p class="course-price-name">{{robot.title}}</p>
@@ -43,7 +42,7 @@
             <p class="course-price-name">{{robot.price_in_full}}</p>
           </div>
         </div>
-        <p class="course-price-nbs">*Cene u evrima se obračunavaju prema prodajnom kursu NBS.</p>
+        <p class="course-price-nbs">**Cene u evrima se obračunavaju prema prodajnom kursu NBS.</p>
         <div class="header-link">
           <a href="#" class="header-link-text">Prijavi se</a>
         </div>

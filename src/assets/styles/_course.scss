@@ -6,8 +6,8 @@
   height: 100vh;
 }
 
-.course-img-experiens{
-    height: 100vh;
+.course-img-experiens {
+  height: 100vh;
 }
 
 .course-title {
@@ -99,7 +99,7 @@
 }
 
 .course-eng {
-  color: $third-color;
+  color: $text-color-1;
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
@@ -107,10 +107,6 @@
 }
 
 @media (max-width: 912px) {
-  h5:first-child {
-    display: none;
-  }
-
   .course-list-content {
     font-size: 14px;
   }
@@ -135,16 +131,16 @@
     height: auto;
   }
 
-  .course-img-experiens{
-      height: auto;
+  .course-img-experiens {
+    height: auto;
   }
 
-  .course-color{
-      height: auto;
+  .course-color {
+    height: auto;
   }
 
-  .course-img{
-      display: none;
+  .course-img {
+    display: none;
   }
 }
 

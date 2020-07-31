@@ -1,27 +1,35 @@
 .margin {
-    @include margin;
-  }
-  .programming-color {
-    background-color: $programming-color;
-  }
-  
-  .programming-img {
-    @include background("~/assets/pictures/main/program-kids-1.png");
-  }
-  
-  .programming-img-experiens{
-    @include background("~/assets/pictures/main/program-kids-2.png");
-  }
-  
-  .robotic-list{
-    background-color: $programming-color;
-  }
-  
-  .programming-price{
-    background-color: $programming-color;
-  }
+  @include margin;
+}
+.programming-color {
+  background-color: $programming-color;
+}
 
-  .programming-price-row{
-      background-color: $programming-color-2;
-  }
-  
+.programming-img {
+  @include background("~/assets/pictures/main/program-kids-1.png");
+}
+
+.programming-img-experiens {
+  @include background("~/assets/pictures/main/program-kids-2.png");
+}
+
+.programming-list {
+  background-color: $programming-color;
+}
+
+.programming-price {
+  background-color: $programming-color;
+}
+
+.programming-price-row {
+  background-color: $programming-color-2;
+}
+
+.header-link-program {
+  border: 2px solid $text-color-1;
+  line-height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  margin-top: 15px;
+  text-align: center !important;
+}

@@ -6,13 +6,13 @@
         <p class="course-headings">{{program.description}}</p>
         <p class="course-eng">engleski gratis!!!</p>
         <p class="course-price-nbs">*U toku trajanja kursa</p>
-      <div class="header-link">
+      <div class="header-link-program">
         <a href="#" class="header-link-text">Prijavi se</a>
       </div>
     </div>
     <div class="col-xl-5 course-img programming-img"></div>
     <div class="course-img-experiens programming-img-experiens col-12">
-      <div class="col-xl-6 col-md-12 course-list robotic-list" *ngFor="let content of program.content">
+      <div class="col-xl-6 col-md-12 course-list programming-list" *ngFor="let content of program.content">
         <h5 class="course-list-id">{{content.id}}.</h5>
         <h5 class="course-list-id course-list-content">{{content.item}}</h5>
         <h5 class="course-list-id course-list-number">{{content.number_of_class}}</h5>
@@ -43,7 +43,7 @@
           </div>
         </div>
         <p class="course-price-nbs">**Cene u evrima se obračunavaju prema prodajnom kursu NBS.</p>
-        <div class="header-link">
+        <div class="header-link-program">
           <a href="#" class="header-link-text">Prijavi se</a>
         </div>
       </div>

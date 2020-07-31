@@ -17,6 +17,7 @@ import { DevKidsComponent } from './dev-kids/dev-kids.component';
 import { RoboticsComponent } from './kids_courses/robotics/robotics.component';
 import { ProgrammingComponent } from './kids_courses/programming/programming.component';
 import { GamingComponent } from './kids_courses/gaming/gaming.component';
+import { DesignKidsComponent } from './kids_courses/design-kids/design-kids.component';
 
 @NgModule({
    declarations: [
@@ -32,7 +33,8 @@ import { GamingComponent } from './kids_courses/gaming/gaming.component';
       DevKidsComponent,
       RoboticsComponent,
       ProgrammingComponent,
-      GamingComponent
+      GamingComponent,
+      DesignKidsComponent
    ],
    imports: [
       BrowserModule,

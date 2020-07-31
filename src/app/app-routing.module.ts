@@ -6,14 +6,16 @@ import { DevKidsComponent } from './dev-kids/dev-kids.component';
 import { RoboticsComponent } from './kids_courses/robotics/robotics.component';
 import { ProgrammingComponent } from './kids_courses/programming/programming.component';
 import { GamingComponent } from './kids_courses/gaming/gaming.component';
+import { DesignKidsComponent } from './kids_courses/design-kids/design-kids.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'about', component: AboutComponent},
   {path: 'kids', component: DevKidsComponent},
-  {path: 'robotics', component: RoboticsComponent},
-  {path: 'programming', component: ProgrammingComponent},
-  {path: 'gaming', component: GamingComponent}
+  {path: 'robotics_kids', component: RoboticsComponent},
+  {path: 'programming_kids', component: ProgrammingComponent},
+  {path: 'gaming_kids', component: GamingComponent},
+  {path: 'design_kids', component: DesignKidsComponent}
 ];
 
 @NgModule({

@@ -1,0 +1,36 @@
+.margin {
+    @include margin;
+  }
+  .design-color {
+    background-color: $design-kids-color;
+  }
+  
+  .design-img {
+    @include background("~/assets/pictures/main/design-kids-1.png");
+  }
+  
+  .design-img-experiens {
+    @include background("~/assets/pictures/main/design-kids-2.png");
+  }
+  
+  .design-list {
+    background-color: $design-kids-color;
+  }
+  
+  .design-price {
+    background-color: $design-kids-color;
+  }
+  
+  .design-price-row {
+    background-color: $design-kids-color-2;
+  }
+  
+  .header-link-program {
+    border: 2px solid $text-color-1;
+    line-height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    margin-top: 15px;
+    text-align: center !important;
+  }
+  

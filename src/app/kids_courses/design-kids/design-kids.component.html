@@ -1,3 +1,54 @@
-<p>
-  design-kids works!
-</p>
+<div class="container-fluid margin" *ngIf="designKidsMetaData$ | async">
+  <div class="row">
+    <ng-container *ngFor="let design of (designKidsMetaData$ | async)">
+    <div class="col-xl-7 col-md-12 course-color design-color">
+        <p class="course-title">{{design.title}}</p>
+        <p class="course-headings">{{design.description}}</p>
+        <p class="course-eng">engleski gratis!!!</p>
+        <p class="course-price-nbs">*U toku trajanja kursa</p>
+      <div class="header-link-program">
+        <a href="#" class="header-link-text">Prijavi se</a>
+      </div>
+    </div>
+    <div class="col-xl-5 course-img design-img"></div>
+    <div class="course-img-experiens design-img-experiens col-12">
+      <div class="col-xl-6 col-md-12 course-list design-list" *ngFor="let content of design.content">
+        <h5 class="course-list-id">{{content.id}}.</h5>
+        <h5 class="course-list-id course-list-content">{{content.item}}</h5>
+        <h5 class="course-list-id course-list-number">{{content.number_of_class}}</h5>
+      </div>
+    </div>
+    <div class="col-12 course-price design-price">
+      <div class="container-fluid">
+        <h2 class="course-registration">Upis je
+          <br>
+          u toku
+        </h2>
+        <div class="row course-price-row design-price-row">
+          <div class="col-xl-3 col-md-12">
+            <p class="course-price-course">Dev Kids <br> kurs</p>
+            <p class="course-price-name">{{design.title}}</p>
+          </div>
+          <div class="col-xl-2 col-md-12">
+            <p class="course-price-course">Redovna cena (eur)</p>
+            <p class="course-price-old-price">{{design.old_price}}</p>
+          </div>
+          <div class="col-xl-3 col-md-12">
+            <p class="course-price-course">PROMOTIVNA CENA ZA PLAĆANJE NA RATe (EUR)</p>
+            <p class="course-price-name">{{design.installment_price}}</p>
+          </div>
+          <div class="col-xl-4 col-md-12">
+            <p class="course-price-course">PROMOTIVNA CENA ZA PLAĆANJE U CELOSTI (EUR)</p>
+            <p class="course-price-name">{{design.price_in_full}}</p>
+          </div>
+        </div>
+        <p class="course-price-nbs">**Cene u evrima se obračunavaju prema prodajnom kursu NBS.</p>
+        <div class="header-link-program">
+          <a href="#" class="header-link-text">Prijavi se</a>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>
+</div>
+

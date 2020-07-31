@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { DevKidsComponent } from './dev-kids/dev-kids.component';
 import { RoboticsComponent } from './kids_courses/robotics/robotics.component';
+import { ProgrammingComponent } from './kids_courses/programming/programming.component';
 
 @NgModule({
    declarations: [
@@ -28,7 +29,8 @@ import { RoboticsComponent } from './kids_courses/robotics/robotics.component';
       FooterComponent,
       AboutComponent,
       DevKidsComponent,
-      RoboticsComponent
+      RoboticsComponent,
+      ProgrammingComponent
    ],
    imports: [
       BrowserModule,

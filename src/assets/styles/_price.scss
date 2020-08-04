@@ -69,6 +69,23 @@
   text-align: center;
 }
 
+.price-all-course{
+  color: $text-color-1;
+  position: relative;
+  top: 3rem;
+}
+
+.price-all-course:hover{
+  color: $third-color;
+}
+
+.price-arrow{
+  color: $text-color-1;
+  position: relative;
+  top: 3rem;
+  margin-right: 5px;
+}
+
 @media (max-width: 972px) {
   .price {
     height: auto;

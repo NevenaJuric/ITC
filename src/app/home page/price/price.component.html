@@ -1,7 +1,37 @@
-<main class="price">
+<main class="price" *ngIf="priceHomeMetaData$ | async">
   <div class="container">
     <div class="row">
-
-      </div>
+      <h1 class="col-12 display-4 price-course">Popularni kursevi</h1>
+      <ng-container *ngFor="let price of (priceHomeMetaData$ | async)">
+        <div class="col-xl-3 col-md-12 price-div">
+          <p class="price-title">{{price.title}}</p>
+          <div class="row">
+            <div class="col-5 price-full-price">
+              <h5>Puna cena</h5>
+              <h4>{{price.full_price}}</h4>
+              <h6>EVRA</h6>
+            </div>
+            <div class="col-5 price-promo-price">
+              <h5>Promo cena</h5>
+              <h4>{{price.promo_price}}</h4>
+              <h6>EVRA</h6>
+            </div>
+            <div class="col-12 price-number">
+              <div class="row">
+                <div class="col-5 price-class" id="price-duration">
+                  <h5>Trajanje kursa</h5>
+                  <h4>{{price.duration}}</h4>
+                </div>
+                <div class="col-5 price-class">
+                  <h5>Broj časova</h5>
+                  <h4>{{price.number_of_class}}</h4>
+                </div>
+              </div>
+            </div>
+            <a routerLink="{{price.link}}" class="price-link">Saznaj više</a>
+          </div>
+        </div>
+      </ng-container>
     </div>
+  </div>
 </main>

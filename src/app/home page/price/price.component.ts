@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PriceService } from '../../services/price.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-price',
@@ -6,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PriceComponent implements OnInit {
 
-  constructor() { }
+  priceHomeMetaData$: Observable<any[]>;
+
+  constructor(private priceService: PriceService) { }
 
   ngOnInit() {
+    this.priceHomeMetaData$ = this.priceService.getPriceHome();
   }
 
 }

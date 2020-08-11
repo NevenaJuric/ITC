@@ -41,9 +41,8 @@
           }
       ],
       "old_price": 24000,
-      "price_in_full": 18000,
-      "text_price": "Kurs se održava u prostorijama Akademije Besos. Plaćanje se vrši u 3 jednake rate od po 6000 dinara.",
-      "text_course": "gdgvsxgbdg"
+      "installment_price": 580,
+      "price_in_full": 18000
     }
   ]
   

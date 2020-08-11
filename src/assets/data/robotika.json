@@ -2,61 +2,47 @@
   {
     "id": "robotics",
     "title": "Robotika",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "description": "Rad sa robotom pruža beskonačne mogućnosti za programiranje kroz igru pri čemu robot postaje Vaš najbolji drug na časovima. Kroz Scratch platformu, prevlačenjem i ređanjem puzla sa gotovim naredbama polaznici se upoznaju sa osnovnim funkcijama robota. SCRATCH je jedan od prvih grafičkih, programskih jezika napravljen za decu. Ovaj program omogućava pravljenja kreativnih priča, igrica i animacija.",
     "content": [
         {
             "id": 1,
-            "item": "Lorem Ipsum is simply dummy",
-            "number_of_class": 5
+            "item": "Upoznavanje sa okruženjem Scratch-a",
+            "number_of_class": 1
         },
         {
             "id": 2,
-            "item": "Uvod",
-            "number_of_class": 5
+            "item": "Upoznavanje sa postojećim likovima, stvaranje sopstvenih likova i njihovo pokretanje",
+            "number_of_class": 2
         },
         {
             "id": 3,
-            "item": "Uvod",
-            "number_of_class": 5
+            "item": "Ubacivanje muzike i razgovor između likova",
+            "number_of_class": 2
         },
         {
             "id": 4,
-            "item": "Uvod",
-            "number_of_class": 5
+            "item": "Jednostavna animacija",
+            "number_of_class": 2
         },
         {
             "id": 5,
-            "item": "Uvod",
-            "number_of_class": 5
+            "item": "Šta je to mbot i kako se upravlja",
+            "number_of_class": 1
         },
         {
             "id": 6,
-            "item": "Uvod",
-            "number_of_class": 5
+            "item": "Programiranje robota u okruženju Scratch",
+            "number_of_class": 10
         },
         {
             "id": 7,
-            "item": "Uvod",
-            "number_of_class": 5
-        },
-        {
-            "id": 8,
-            "item": "Uvod",
-            "number_of_class": 5
-        },
-        {
-            "id": 9,
-            "item": "Uvod",
-            "number_of_class": 5
-        },
-        {
-            "id": 10,
-            "item": "Uvod",
-            "number_of_class": 5
+            "item": "Završni projekti",
+            "number_of_class": 2
         }
     ],
-    "old_price": 600,
-    "installment_price": 580,
-    "price_in_full": 560
+    "old_price": 30000,
+    "price_in_full": 24000,
+    "text_price": "Kurs se održava u prostorijama Akademije Besos. Plaćanje se vrši u 3 jednake rate od po 8000 dinara.",
+    "text_course": "gdgvsxgbdg"
   }
 ]

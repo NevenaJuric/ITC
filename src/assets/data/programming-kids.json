@@ -1,63 +1,53 @@
 [
-    {
-      "id": "programming-kids",
-      "title": "Programiranje",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "content": [
-          {
-              "id": 1,
-              "item": "Lorem Ipsum is simply dummy",
-              "number_of_class": 5
-          },
-          {
-              "id": 2,
-              "item": "Uvod",
-              "number_of_class": 5
-          },
-          {
-              "id": 3,
-              "item": "Uvod",
-              "number_of_class": 5
-          },
-          {
-              "id": 4,
-              "item": "Uvod",
-              "number_of_class": 5
-          },
-          {
-              "id": 5,
-              "item": "Uvod",
-              "number_of_class": 5
-          },
-          {
-              "id": 6,
-              "item": "Uvod",
-              "number_of_class": 5
-          },
-          {
-              "id": 7,
-              "item": "Uvod",
-              "number_of_class": 5
-          },
-          {
-              "id": 8,
-              "item": "Uvod",
-              "number_of_class": 5
-          },
-          {
-              "id": 9,
-              "item": "Uvod",
-              "number_of_class": 5
-          },
-          {
-              "id": 10,
-              "item": "Uvod",
-              "number_of_class": 5
-          }
-      ],
-      "old_price": 600,
-      "installment_price": 580,
-      "price_in_full": 560
-    }
-  ]
-  
+  {
+    "id": "programming-kids",
+    "title": "Programiranje",
+    "description": "Programiranje je termin pod kojim se podrazumeva kreiranje računarskih programa. Ova veština postaje sve popularnija. Naš kurs je dizajniran da pomogne polaznicima sa malo ili bez programerskog iskustva, na zabavan način nauče osnove kreiranja interaktivnih aplikacija. PYTHON je jezik koji nudi širinu, jednostvanu i udobnu sintaksu koji je idealan za početnike.",
+    "content": [
+      {
+        "id": 1,
+        "item": "Uvod u programiski jezik Python. Naredbe, izrazi i operatori",
+        "number_of_class": 1
+      },
+      {
+        "id": 2,
+        "item": "Tipovi podataka, celobrojno i realno deljenje",
+        "number_of_class": 2
+      },
+      {
+        "id": 3,
+        "item": "Naredbe grananja",
+        "number_of_class": 3
+      },
+      {
+        "id": 4,
+        "item": "Rad sa ugrađenim funkcijama, definisanje funkcija",
+        "number_of_class": 3
+      },
+      {
+        "id": 5,
+        "item": "Naredbe ponavljanja, for, while petlja",
+        "number_of_class": 3
+      },
+      {
+        "id": 6,
+        "item": "Nizovi, liste, rečnici",
+        "number_of_class": 3
+      },
+      {
+        "id": 7,
+        "item": "Kornjača grafika (naredbe, linijski programi, ponavljanje, grananje petlje, procedure, slobodno crtanje)",
+        "number_of_class": 3
+      },
+      {
+        "id": 8,
+        "item": "Završni projekat",
+        "number_of_class": 2
+      }
+    ],
+    "old_price": 24000,
+    "price_in_full": 18000,
+    "text_price": "Kurs se održava u prostorijama Akademije Besos. Plaćanje se vrši u 3 jednake rate od po 6000 dinara.",
+    "text_course": "gdgvsxgbdg"
+  }
+]

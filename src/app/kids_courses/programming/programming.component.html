@@ -13,38 +13,38 @@
     <div class="col-xl-5 course-img programming-img"></div>
     <div class="course-img-experiens programming-img-experiens col-12">
       <h1 class="display-4">Sadržaj kursa</h1>
-      <div class="col-xl-6 col-md-12 course-list programming-list" *ngFor="let content of program.content">
+      <div class="col-xl-12 col-md-12 course-list programming-list" *ngFor="let content of program.content">
         <h5 class="course-list-id">{{content.id}}.</h5>
         <h5 class="course-list-id course-list-content">{{content.item}}</h5>
         <h5 class="course-list-id course-list-number">{{content.number_of_class}}</h5>
       </div>
+      <br>
     </div>
     <div class="col-12 course-price programming-price">
       <div class="container-fluid">
         <h2 class="course-registration">Upis je u toku
         </h2>
         <div class="row course-price-row programming-price-row">
-          <div class="col-xl-3 col-md-12">
-            <p class="course-price-course">Dev Kids <br> kurs</p>
+          <div class="col-xl-4 col-md-12">
+            <p class="course-price-course">Dev Kids kurs</p>
             <p class="course-price-name">{{program.title}}</p>
           </div>
-          <div class="col-xl-2 col-md-12">
-            <p class="course-price-course">Redovna cena <br> (eur)</p>
+          <div class="col-xl-4 col-md-12">
+            <p class="course-price-course">Redovna cena</p>
             <p class="course-price-old-price">{{program.old_price}}</p>
           </div>
-          <div class="col-xl-3 col-md-12">
-            <p class="course-price-course">PROMOTIVNA CENA ZA PLAĆANJE NA RATe (EUR)</p>
-            <p class="course-price-name">{{program.installment_price}}</p>
-          </div>
           <div class="col-xl-4 col-md-12">
-            <p class="course-price-course">PROMOTIVNA CENA ZA PLAĆANJE U CELOSTI (EUR)</p>
+            <p class="course-price-course">PROMO CENA</p>
             <p class="course-price-name">{{program.price_in_full}}</p>
           </div>
         </div>
-        <p class="course-price-nbs">**Cene u evrima se obračunavaju prema prodajnom kursu NBS.</p>
+        <!-- <p class="course-price-nbs">**Cene u evrima se obračunavaju prema prodajnom kursu NBS.</p> -->
         <div class="header-link-program">
           <a href="#" class="header-link-text">Prijavi se</a>
         </div>
+        <br>
+        <p class="course-price-nbs">{{program.text_course}}</p>
+        <p class="course-price-nbs">{{program.text_price}}</p>
       </div>
     </div>
   </ng-container>

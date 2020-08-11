@@ -29,4 +29,8 @@ export class DevKidsService {
   getDesignKids(): Observable<any[]> {
     return this.httpClient.get<any[]>('assets/data/design-kids.json');
   }
+
+  getWebKids(): Observable<any[]> {
+    return this.httpClient.get<any[]>('assets/data/web-kids.json');
+  }
 }

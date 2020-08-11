@@ -3,7 +3,7 @@
         "id": "Dev_Kids",
         "title": "Dev Kids",
         "folder": "Dev_Kids",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "description": "Psiholozi kažu da deca najbolje uče kroz igru. Sada je to moguće. Svi naši kursevi prilagođeni su interesovanjima dece, dok su programi pravljeni specijalno po uzrastima. Razvijte talente svoje dece uz našu pomoć. Birajte kurs po meri Vašeg deteta.",
         "courses": [
             {
                 "id": "robotics_kids",
@@ -24,10 +24,16 @@
                 "animation": 3
             },
             {
+                "id": "web_kids",
+                "title": "Web",
+                "icon": "fa-code",
+                "animation": 4
+            },
+            {
                 "id": "design_kids",
                 "title": "Dizajn",
                 "icon": "fa-palette",
-                "animation": 4
+                "animation": 1
             }
         ]
     }

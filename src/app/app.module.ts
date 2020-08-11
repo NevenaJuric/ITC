@@ -18,6 +18,7 @@ import { RoboticsComponent } from './kids_courses/robotics/robotics.component';
 import { ProgrammingComponent } from './kids_courses/programming/programming.component';
 import { GamingComponent } from './kids_courses/gaming/gaming.component';
 import { DesignKidsComponent } from './kids_courses/design-kids/design-kids.component';
+import { WebKidsComponent } from './kids_courses/web-kids/web-kids.component';
 
 @NgModule({
    declarations: [
@@ -34,7 +35,8 @@ import { DesignKidsComponent } from './kids_courses/design-kids/design-kids.comp
       RoboticsComponent,
       ProgrammingComponent,
       GamingComponent,
-      DesignKidsComponent
+      DesignKidsComponent,
+      WebKidsComponent
    ],
    imports: [
       BrowserModule,

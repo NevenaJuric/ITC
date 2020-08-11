@@ -1,0 +1,35 @@
+.margin {
+  @include margin;
+}
+.web-color {
+  background-color: $web-kids-color;
+}
+
+.web-img {
+  @include background("~/assets/pictures/main/design-kids-1.png");
+}
+
+.web-img-experiens {
+  @include background("~/assets/pictures/main/robot_2.png");
+}
+
+.web-list {
+  background-color: $web-kids-color;
+}
+
+.web-price {
+  background-color: $web-kids-color;
+}
+
+.web-price-row {
+  background-color: $web-kids-color-2;
+}
+
+.header-link-program {
+  border: 2px solid $text-color-1;
+  line-height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  margin-top: 15px;
+  text-align: center !important;
+}
